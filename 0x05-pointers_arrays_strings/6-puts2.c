@@ -5,7 +5,7 @@
  *
  * @str: string parameter input
  *
- * Return: Nothing
+ * Return: Success
 */
 
 void puts2(char *str)
