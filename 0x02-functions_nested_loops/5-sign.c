@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * iprint_sign - print + if n is grater than zero
+ * print_sign - print + if n is grater than zero
  *              0 if n is zero and = if n is less
  *              than zero.
  *
