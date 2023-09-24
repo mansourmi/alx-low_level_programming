@@ -2,7 +2,9 @@
 /**
  * main - Entry point
  *
- * Return - Always 0 (success)
+ * Description: Write a C program that prints exactly "Programming
+ *
+ * Return: Always 0 (success)
 */
 int main(void)
 {
