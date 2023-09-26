@@ -9,17 +9,17 @@
 
 int main(void)
 {
-	char c;
-	int b;
-	long int d;
-	long long int g;
-	float a;
+	char;
+	int;
+	long int;
+	long long int;
+	float;
 
-	printf("Size of a char : %lu.\n", (char)sizeof(c));
-	printf("Size of an int: %lu.\n", (int)sizeof(c));
-	printf("Size of a long int: %lu.\n", (long int)sizeof(d));
-	printf("Size of a long long int: %lu.\n", (long long int)sizeof(g));
-	printf("Size of a float: %lu.\n", (float)sizeof(a));
+	puts("Size of a char: %u byte(s)", (char)sizeof);
+	puts("Size of an int: %u byte(s)", (int)sizeof);
+	puts("Size of a long int: %u byte(s)", (long int)sizeof);
+	puts("Size of a long long int: %u byte(s)", (long long int)sizeof);
+	puts("Size of a float: %u bytes(s)", (float)sizeof);
 
 	return (0);
 }

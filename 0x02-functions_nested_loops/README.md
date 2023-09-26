@@ -1,1 +1,1 @@
-new c project
+new p
