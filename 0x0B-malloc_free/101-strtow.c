@@ -54,12 +54,17 @@ char **strtow(char *str)
 			j++;
 			w[wc] = (char *)malloc(j * sizeof(char));
 			j--;
-		if (w[wc] == NULL)
-		{
-
-			for (k = 0; k < wc; k++)
-				free(w[k]);
-			free(w[wc][l] = '\0');
+			if (w[wc] == NULL)
+			{
+				for (k = 0; k < wc; k++)
+					free(w[k]);
+				free(n[n - 1]);
+				free(w);
+				return (NULL);
+			}
+			for (l = 0; l < j; l++)
+				w[wc][l] = str[i + l];
+			w[wc][l] = '\0';
 			wc++;
 			i += j;
 		}
