@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - program print all argument
+ * main - print number of all argument
  * @argc: int
  * @argv: list
+ * Return: 0 success
 */
 
 int main(int argc, char const *argv[])
