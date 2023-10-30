@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - entry point
  *
- * Descriptin: Write a C program that prints the size of various types
+ * Description: printing the sizes
  *
- * Return: Always 0 (succes)
-*/
+ * Return: always 0 success
+**/
 
 int main(void)
 {
@@ -15,11 +16,12 @@ int main(void)
 	long long int;
 	float;
 
-	puts("Size of a char: %u byte(s)", (char)sizeof);
-	puts("Size of an int: %u byte(s)", (int)sizeof);
-	puts("Size of a long int: %u byte(s)", (long int)sizeof);
-	puts("Size of a long long int: %u byte(s)", (long long int)sizeof);
-	puts("Size of a float: %u bytes(s)", (float)sizeof);
+
+	printf("Size of a char: %u byte(s)\n", sizeof(char));
+	printf("Size of an int: %u byte(s)\n", sizeof(int));
+	printf("Size of a long int: %u byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %u byte(s)\n", sizeof(long long int));
+	printf("Size of a float : %u byte(s)\n", sizeof(float));
 
 	return (0);
 }
