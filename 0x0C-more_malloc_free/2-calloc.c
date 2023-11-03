@@ -7,7 +7,7 @@
  * Return: s
 */
 
-char *_memset(char *s. char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 
 	char *ptr = s;
@@ -17,6 +17,7 @@ char *_memset(char *s. char b, unsigned int n)
 
 	return (ptr);
 }
+
 /**
  * *_calloc - allocate memory for array by using malloc
  * @nmemb: array length
